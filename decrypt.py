@@ -18,4 +18,11 @@ def decrypt_string(encrypted_text):
         elif char == "+":
             decrypted_text += "o"
 # if !, change to u
+        elif char == "!":
+            decrypted_text += "u"
+        else:
+            decrypted_text += char
+    return decrypted_text
 # print output
+plain_text = decrypt_string(encrypted_text)
+print(plain_text)
