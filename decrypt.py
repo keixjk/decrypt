@@ -15,5 +15,7 @@ def decrypt_string(encrypted_text):
         elif char == "#":
             decrypted_text += "i"
 # if +, change to o
+        elif char == "+":
+            decrypted_text += "o"
 # if !, change to u
 # print output
