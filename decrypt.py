@@ -6,6 +6,8 @@ def decrypt_string(encrypted_text):
 # check every character
 for char in encrypted_text:
 # if *, change to a
+  if char == "*":
+            decrypted_text += "a"
 # if &, change to e 
 # if #, change to i
 # if +, change to o
