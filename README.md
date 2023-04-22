@@ -1,6 +1,11 @@
 # DECRYPT
 
-# Decrypts encrypted text into their equivalent alphabetical values, which are: "*" = a "&" = e "#" = i "+" = o "!" = u
+# Decrypts encrypted text into their equivalent alphabetical values, which are:
+"*" = a 
+"&" = e 
+"#" = i 
+"+" = o
+"!" = u
 
 # How To Use
 
